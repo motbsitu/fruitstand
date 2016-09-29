@@ -11,3 +11,21 @@ img {
 h1 {
     display: inline;
 }
+table {
+    border-collapse: collapse;
+    align-self: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+body {
+    background: linear-gradient(cyan,lightgreen);
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 50%;
+    align-content: center;
+}
+html {
+    height: 100%;
+}
