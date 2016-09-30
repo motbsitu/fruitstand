@@ -1,31 +1,46 @@
 img {
-    height: 120px;
-    width: 120px;
+  height: 150px;
+  width: 150px;
 }
-
 .cash, h2 {
-    display: inline;
-    margin-left: 100px;
+  display: inline;
+  margin-left: 100px;
 }
-
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
 h1 {
-    display: inline;
+  display: inline;
+  margin-left: 100px;
 }
 table {
-    border-collapse: collapse;
-    align-self: center;
+  border-collapse: collapse;
+  margin-left: 100px;
 }
-
 table, th, td {
-    border: 1px solid black;
+  border: 1px solid black;
+}
+td {
+  height: 30px;
+}
+th {
+  width: 150px;
 }
 body {
-    background: linear-gradient(cyan,lightgreen);
-    background-repeat: no-repeat;
-    min-height: 100%;
-    width: 50%;
-    align-content: center;
+  background: linear-gradient(cyan,lightgreen);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
 }
-html {
-    height: 100%;
+button {
+  font-size: 20px;
+  width: 80px;
+  border-radius: 12px;
+  margin: 10px;
+}
+button:hover {
+  box-shadow: 0 0 4px 1px black;
+  background-color: lightgray;
 }
